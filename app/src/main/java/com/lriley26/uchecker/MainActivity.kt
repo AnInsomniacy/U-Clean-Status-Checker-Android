@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val sideSpinner = findViewById<Spinner>(R.id.side)
 
         //预设reslutshower的内容
-        resultshower.setText("欢迎使用 U Clean Status Checker\n\n请在上方选择相关信息，然后点击“查询”按钮\n\n如需支持更多宿舍楼的洗衣机，请根据 ”关于“ 按钮中的提示，协助作者获取必要信息。\n\n代码已开源，欢迎各位前来指点\n\n本项目GitHub地址:\n\nhttps://github.com/HIDAYAT-Lee/U-Clean-Status-Checker-Android")
+        resultshower.setText("欢迎使用 U Clean Status Checker\n\n请在上方选择相关信息，然后点击“查询”按钮\n\n如需支持更多宿舍楼的洗衣机，请根据 ”关于“ 按钮中的提示，协助作者获取必要信息。\n\n代码已开源，欢迎各位前来指点\n\n本项目GitHub地址:\n\nhttps://github.com/CarlWkr/U-Clean-Status-Checker-Android")
 
         //设置buildingSpinner的选项为“东十九”和“西一”
         val buildingList = arrayOf("东十九", "西一")
@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
         //定义about函数
         fun about() {
             //在reslutshower中显示关于信息
-            resultshower.setText("本项目GitHub地址:  \n\nhttps://github.com/HIDAYAT-Lee/U-Clean-Status-Checker-Android\n\n如需支持更多宿舍楼的洗衣机，请协助作者获取对应宿舍楼的洗衣机URL\n\n洗衣机的二维码扫描之后，会得到一串指向这台机器的链接\n\n请前往GitHub提交issue，并附加洗衣机二维码扫描后得到的链接。\n\n请按照以下格式提交:    xx楼xx侧xx层洗衣机:扫码得到的url\n\n如:    东十九楼兆基侧一层洗衣机:http://app.littleswan.com/u_download.html?type=Ujing& uuid=0000000000000A0007555201809040059546\n\n作者将及时更新并提供支持服务本程序仅供学习交流使用,请勿用于非法用途\n\n代码已开源，欢迎各位前来指点")
+            resultshower.setText("本项目GitHub地址:  \n\nhttps://github.com/CarlWkr/U-Clean-Status-Checker-Android\n\n如需支持更多宿舍楼的洗衣机，请协助作者获取对应宿舍楼的洗衣机URL\n\n洗衣机的二维码扫描之后，会得到一串指向这台机器的链接\n\n请前往GitHub提交issue，并附加洗衣机二维码扫描后得到的链接。\n\n请按照以下格式提交:    xx楼xx侧xx层洗衣机:扫码得到的url\n\n如:    东十九楼兆基侧一层洗衣机:http://app.littleswan.com/u_download.html?type=Ujing& uuid=0000000000000A0007555201809040059546\n\n作者将及时更新并提供支持服务本程序仅供学习交流使用,请勿用于非法用途\n\n代码已开源，欢迎各位前来指点")
         }
 
         //单击button_about时，执行about函数
