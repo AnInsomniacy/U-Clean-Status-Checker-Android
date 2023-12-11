@@ -33,7 +33,7 @@ suspend fun getStatus(postData: String): Pair<Boolean, String> = withContext(Dis
     val url = "https://phoenix.ujing.online/api/v1/wechat/devices/scanWasherCode"
     val headers = mapOf(
         "Accept" to "application/json, text/plain, */*",
-        "Authorization" to "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBVc2VySWQiOiJvZ3lSVDF1M0dlZU9OV2N5SGdHekZYM3RoLVVNIiwiZXhwIjoxNzAyMjgzNTg4LCJpYXQiOjE2OTQyNDgzODgsImlkIjozMDE5NDgzMiwibmFtZSI6IjE5ODc2NTc2NzY4In0.N83KdLj5-3DuyaY4-n9lsocUpq71QwnCvB4Ox7FL1D0",
+        "Authorization" to "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBVc2VySWQiOjExMzI4ODM3LCJleHAiOjE3MTAzNDE3NTAsImlhdCI6MTcwMjMwNjU1MCwiaWQiOjE2MTc0OTk3LCJuYW1lIjoiMTc2ODgwODE4MzQifQ.MI9tZUn6ki8EfiZHgUXCE7VYe6JN6UJLcPz6YgbtaYA",
         "Accept-Language" to "zh-CN,zh-Hans;q=0.9",
         "Accept-Encoding" to "gzip, deflate, br",
         "Content-Type" to "application/json; charset=utf-8",
